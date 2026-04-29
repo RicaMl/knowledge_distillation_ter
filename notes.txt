@@ -1,0 +1,86 @@
+Il y a de simages qui n'ont pas d'animaux. leur label.txt est alors vide.
+c'est bien pour tester si il détecte vraiment rien
+
+Il y a des images qui ont plusieurs especes , de meme especes ou especes différentes
+
+tester d'abord sur 5 images pour voir la manieres dont il génère les caption pour pouvoir adapter après.
+-1 image où il y a une seule espèce
+- une image ou il y a plusiseurs meme especes
+- 2 image ou il y a plusieurs espèces différentes
+- Une image ou il n'y a pas d'espece
+
+
+avant de générer le csv ou download les images verifiers qu'ils n'existent pas
+2aba7f3c-c5b7-43a8-a7de-11c59fb2c26e
+
+stock par colonn e a cause des boucing box
+
+
+Image trouvée : id=None uuid='024b57e3-3fe4-44e2-8ca1-d5887632c162'
+url='https://database.fathomnet.org/static/m3/framegrabs/Doc%20Ricketts/images/0075/07_41_59_25.png'
+valid=True imagingType='ROV' depthMeters=1545.3800048828125 height=366
+lastValidation='2024-12-01T11:36:20.837173Z' latitude=45.951 longitude=-130.024406
+altitude=None salinity=34.457000732421875 temperatureCelsius=2.4000000953674316
+oxygenMlL=0.7350000143051147 pressureDbar=1571.4000244140625 mediaType=None modified=None
+sha256='451dca42db2c7c2a1d845af053bd1504bb562f772deb7141d123da3d5a136a53'
+contributorsEmail='brian@mbari.org' tags=[ATagDTO(id=None,
+uuid='d7ff8022-333a-47bb-a169-4ab1d1023d63', key='source', mediaType='text/plain',
+value='MBARI/VARS', createdTimestamp=None, lastUpdatedTimestamp=None, image=None)]
+timestamp='2009-08-23T22:32:32Z' width=720 boundingBoxes=[ABoundingBoxDTO(id=None,
+uuid='632a38d4-abc0-4bb1-9a06-c945a3267602', userDefinedKey='509cbe4a-9fac-4e7d-4a64-6e8df7ccb81e',
+concept='Pterasteridae', altConcept=None, image=None, groupOf=None, height=30, occluded=None,
+observer='deepseabenthicecology@gmail.com', truncated=None, width=46, x=286, y=260,
+rejected=None, reviewState=<ReviewState.VERIFIED: 'VERIFIED'>, reviewer='deepseabenthicecology@gmail.com',
+lastReviewedTimestamp='2024-11-02T22:55:39.869Z', createdTimestamp=None,
+lastUpdatedTimestamp='2024-11-02T22:55:39.935Z'), ABoundingBoxDTO(id=None,
+uuid='f03bc45e-25e2-49f6-9781-6362cfd72cd4', userDefinedKey='eeb4d175-f501-45f5-e566-471af8ccb81e',
+concept='manipulator', altConcept=None, image=None, groupOf=None, height=227, occluded=None,
+observer='deepseabenthicecology@gmail.com', truncated=None, width=220, x=314, y=0, rejected=None,
+reviewState=<ReviewState.VERIFIED: 'VERIFIED'>, reviewer='deepseabenthicecology@gmail.com',
+lastReviewedTimestamp='2024-11-02T22:55:48.575Z', createdTimestamp=None,
+lastUpdatedTimestamp='2024-11-02T22:55:48.647Z'), ABoundingBoxDTO(id=None,
+uuid='0d148886-08b2-41ac-8849-c7756ece53cc', userDefinedKey=None, concept='polypropylene line',
+altConcept=None, image=None, groupOf=None, height=107, occluded=None, observer=None, truncated=None,
+width=62, x=134, y=229, rejected=None, reviewState=<ReviewState.VERIFIED: 'VERIFIED'>,
+reviewer='deepseabenthicecology@gmail.com', lastReviewedTimestamp='2024-11-02T22:54:06.526Z',
+createdTimestamp=None, lastUpdatedTimestamp='2024-11-02T22:55:12.527Z'),
+ABoundingBoxDTO(id=None, uuid='bf80d9db-74c5-490d-a846-f1b703b47582', userDefinedKey=None,
+concept='equipment', altConcept=None, image=None, groupOf=None, height=144, occluded=None,
+observer=None, truncated=None, width=184, x=535, y=0, rejected=None,
+reviewState=<ReviewState.VERIFIED: 'VERIFIED'>, reviewer='deepseabenthicecology@gmail.com',
+lastReviewedTimestamp='2024-11-02T22:53:53.611Z', createdTimestamp=None,
+lastUpdatedTimestamp='2024-11-02T22:55:12.528Z'),
+ABoundingBoxDTO(id=None, uuid='832f9131-8fb5-4094-b3f7-be8ab00c8bbd',
+userDefinedKey=None, concept='drawer', altConcept=None, image=None, groupOf=None, height=168, occluded=None, observer=None, truncated=None, width=391, x=328, y=194, rejected=None, reviewState=<ReviewState.VERIFIED: 'VERIFIED'>, reviewer='deepseabenthicecology@gmail.com', lastReviewedTimestamp='2024-11-02T22:54:51.250Z', createdTimestamp=None, lastUpdatedTimestamp='2024-11-02T22:55:12.528Z'), ABoundingBoxDTO(id=None, uuid='8328f91d-86a0-4c0e-8f26-e88f4984b8be', userDefinedKey=None, concept='Biology box', altConcept=None, image=None, groupOf=None, height=49, occluded=None, observer=None, truncated=None, width=214, x=42, y=315, rejected=None, reviewState=<ReviewState.VERIFIED: 'VERIFIED'>, reviewer='deepseabenthicecology@gmail.com', lastReviewedTimestamp='2024-11-02T22:54:35.326Z', createdTimestamp=None, lastUpdatedTimestamp='2024-11-02T22:55:12.528Z'), ABoundingBoxDTO(id=None, uuid='61393b17-a044-466b-9410-3759df4cf5df', userDefinedKey=None, concept='equipment', altConcept=None, image=None, groupOf=None, height=118, occluded=None, observer=None, truncated=None, width=63, x=243, y=247, rejected=None, reviewState=<ReviewState.VERIFIED: 'VERIFIED'>, reviewer='deepseabenthicecology@gmail.com', lastReviewedTimestamp='2024-11-02T22:55:18.641Z', createdTimestamp=None, lastUpdatedTimestamp='2024-11-02T22:55:31.538Z')] createdTimestamp='2021-09-29T21:17:17.431Z' lastUpdatedTimestamp='2024-12-01T11:36:20.842+00:00'
+
+manipulator, polypropylene line, equipment, drawer, Biology box, equipment
+
+separer la recup des images et la creation des csv car ca peut etre long?
+
+on a un rpboleme --- Analyse brute pour : Pterasteridae ---
+Nom: Velatida        | Rang: Order
+Nom: Neoasteroidea   | Rang: Infraclass
+Nom: Ambuloasteroidea | Rang: Subclass
+Nom: Asteroidea      | Rang: Class
+Nom: Asterozoa       | Rang: Subphylum
+Nom: Echinodermata   | Rang: Phylum
+Nom: Animalia        | Rang: Kingdom
+Nom: Biota           | Rang:
+Nom: object          | Rang:
+--- Analyse brute pour : manipulator ---
+Nom: equipment       | Rang:
+Nom: object          | Rang:
+--- Analyse brute pour : polypropylene line ---
+Nom: plastic         | Rang:
+Nom: trash           | Rang:
+Nom: object          | Rang:
+--- Analyse brute pour : equipment ---
+Nom: object          | Rang:
+--- Analyse brute pour : drawer ---
+Nom: equipment       | Rang:
+Nom: object          | Rang:
+--- Analyse brute pour : Biology box ---
+Nom: equipment       | Rang:
+Nom: object          | Rang:
+--- Analyse brute pour : equipment ---
+Nom: object          | Rang:            les bounding box qui n'ont pas d'info, de concept ce sont pas des animaux, des object genre genre du plastic et tout donc ca on le mets quand meme dans le pdf avec les info des position taille with hein en tout cas tout les infos utiles, du coup je ne pesne pas qu'il faut docker en row dans le csv mais plutot en colonne? et on va juste garde phylum, class , order et concept(qui est en réalités species je pesne)

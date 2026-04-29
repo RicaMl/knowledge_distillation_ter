@@ -1,0 +1,5 @@
+src/data/Fathomnet-by-Phylum-2
+src/data/best.pt
+.venv
+.env
+__pycache__/
