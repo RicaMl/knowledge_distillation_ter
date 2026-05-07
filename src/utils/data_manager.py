@@ -19,7 +19,7 @@ def generate_uuid_csv(directory_path, output_csv_name):
     print(f"Start Verified uuid from fathomnet")
     with open(output_csv_name, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
-        #writer.writerow(['uuid'])
+        writer.writerow(['uuid'])
         for uuid in uuids:
             writer.writerow([uuid])
 
@@ -59,9 +59,14 @@ def get_taxamony(concept):
     return res
 
 
-
-
-
+def generate_uuid_csv_valid():
+    try:
+        test_path = "src/data/Fathomnet-by-Phylum-2/valid/images"
+        print("Start generating uuid csv for valid images uuids")
+        generate_uuid_csv(test_path, "src/data/csvfiles/val_uuids.csv")
+        print("End generating uuid csv for valid images uuids")
+    except Exception as e:
+        print(e)
 
 
 def generate_uuid_csv_test():
@@ -97,12 +102,6 @@ def filter_fathomnet_csv():
 
     print(f"Ending cleaning. deleted rows : {len(df) - len(clean_df)}")
 
-
-# Utilisation
-# filter_fathomnet_csv('ton_dataset.csv', 'dataset_clean.csv')
-
-def generate_captions_with_llava():
-    pass
 
 def generate_csv_uuids_info_for_train_images_with_exlude_concepts():
     train_uuids_csv_path = Path.cwd() / "src/data/csvfiles/train_uuids.csv"
@@ -245,6 +244,133 @@ def generate_csv_uuids_info_for_train_images():
             print(f"Saut : {uuid} | Erreur: {e}")
 
     print(f"**** END ****")
+
+def generate_csv_uuids_info_for_test_images():
+    train_uuids_csv_path = Path.cwd() / "src/data/csvfiles/test_uuids.csv"
+    output_csv_path = Path.cwd() / "src/data/csvfiles/test_uuids_info.csv"
+    image_directory_path = Path.cwd() / "src/data/Fathomnet-by-Phylum-2/test/images"
+
+    headers = [
+        'uuid', 'depth', 'temperature', 'total_objects',
+        'concept', 'concept_rank', 'is_certain',
+        'phylum', 'class', 'order', 'family', 'genus',
+        'x', 'y', 'width', 'height'
+    ]
+
+    with open(output_csv_path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(headers)
+
+    try:
+        with open(train_uuids_csv_path, 'r') as f:
+            reader = csv.reader(f)
+            next(reader, None)
+            uuids = [row[0].strip() for row in reader if row]
+    except Exception as e:
+        print(f"Erreur lecture CSV : {e}"); exit()
+
+    print(f"({len(uuids)} images)...")
+
+    for uuid in uuids:
+        try:
+            matching_files = list(image_directory_path.glob(f"{uuid}*.jpg"))
+            if matching_files:
+                img_path = matching_files[0]
+                print(f"Fichier trouvé : {img_path.name}")
+                image_record = imagesFathomnet.find_by_uuid(uuid)
+
+                depth = getattr(image_record, 'depthMeters', 'N/A')
+                temp = getattr(image_record, 'temperatureCelsius', 'N/A')
+                num_boxes = len(image_record.boundingBoxes)
+
+                for box in image_record.boundingBoxes:
+                    concept = box.concept
+                    is_certain = 0 if (" cf. " in concept or " sp. " in concept) else 1
+                    taxo = get_taxamony(concept)
+
+                    with open(output_csv_path, 'a', newline='', encoding='utf-8') as f:
+                        writer = csv.writer(f)
+                        writer.writerow([
+                            uuid, depth, temp, num_boxes,
+                            concept, taxo['rank'], is_certain,
+                            taxo['phylum'], taxo['class'], taxo['order'], taxo['family'], taxo['genus'],
+                            box.x, box.y, box.width, box.height
+                        ])
+
+                print(f"OK : {uuid} | {taxo['rank']} (Total: {num_boxes})")
+
+            else:
+                print(f"Aucun fichier trouvé pour {uuid}.")
+
+
+        except Exception as e:
+            print(f"Saut : {uuid} | Erreur: {e}")
+
+    print(f"**** END ****")
+
+def generate_csv_uuids_info_for_val_images():
+    train_uuids_csv_path = Path.cwd() / "src/data/csvfiles/val_uuids.csv"
+    output_csv_path = Path.cwd() / "src/data/csvfiles/val_uuids_info.csv"
+    image_directory_path = Path.cwd() / "src/data/Fathomnet-by-Phylum-2/valid/images"
+
+    headers = [
+        'uuid', 'depth', 'temperature', 'total_objects',
+        'concept', 'concept_rank', 'is_certain',
+        'phylum', 'class', 'order', 'family', 'genus',
+        'x', 'y', 'width', 'height'
+    ]
+
+    with open(output_csv_path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(headers)
+
+    try:
+        with open(train_uuids_csv_path, 'r') as f:
+            reader = csv.reader(f)
+            next(reader, None)
+            uuids = [row[0].strip() for row in reader if row]
+    except Exception as e:
+        print(f"Erreur lecture CSV : {e}"); exit()
+
+    print(f"({len(uuids)} images)...")
+
+    for uuid in uuids:
+        try:
+            matching_files = list(image_directory_path.glob(f"{uuid}*.jpg"))
+            if matching_files:
+                img_path = matching_files[0]
+                print(f"Fichier trouvé : {img_path.name}")
+                image_record = imagesFathomnet.find_by_uuid(uuid)
+
+                depth = getattr(image_record, 'depthMeters', 'N/A')
+                temp = getattr(image_record, 'temperatureCelsius', 'N/A')
+                num_boxes = len(image_record.boundingBoxes)
+
+                for box in image_record.boundingBoxes:
+                    concept = box.concept
+                    is_certain = 0 if (" cf. " in concept or " sp. " in concept) else 1
+                    taxo = get_taxamony(concept)
+
+                    with open(output_csv_path, 'a', newline='', encoding='utf-8') as f:
+                        writer = csv.writer(f)
+                        writer.writerow([
+                            uuid, depth, temp, num_boxes,
+                            concept, taxo['rank'], is_certain,
+                            taxo['phylum'], taxo['class'], taxo['order'], taxo['family'], taxo['genus'],
+                            box.x, box.y, box.width, box.height
+                        ])
+
+                print(f"OK : {uuid} | {taxo['rank']} (Total: {num_boxes})")
+
+            else:
+                print(f"Aucun fichier trouvé pour {uuid}.")
+
+
+        except Exception as e:
+            print(f"Saut : {uuid} | Erreur: {e}")
+
+    print(f"**** END ****")
+
 
 
 

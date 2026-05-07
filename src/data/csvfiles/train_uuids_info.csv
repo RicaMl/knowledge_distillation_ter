@@ -5,12 +5,23 @@ d1d7c795-cc3b-4059-99a3-f1a7256bbcc1,1466.6099853515625,2.447999954223633,1,Pann
 4141783d-2a0c-496d-a563-72c17abe9f09,1795.1300048828125,2.11299991607666,2,Pannychia moseleyi,species,1,Echinodermata,Holothuroidea,Elasipodida,Laetmogonidae,Pannychia,248,126,28,26
 4141783d-2a0c-496d-a563-72c17abe9f09,1795.1300048828125,2.11299991607666,2,Bathyraja spinosissima,species,1,Chordata,Elasmobranchii,Rajiformes,Arhynchobatidae,Bathyraja,365,125,242,204
 024b57e3-3fe4-44e2-8ca1-d5887632c162,1545.3800048828125,2.4000000953674316,7,Pterasteridae,genus,1,Echinodermata,Asteroidea,Velatida,N/A,Pteraster,286,260,46,30
+024b57e3-3fe4-44e2-8ca1-d5887632c162,1545.3800048828125,2.4000000953674316,7,manipulator,unknown,1,N/A,N/A,N/A,N/A,N/A,314,0,220,227
+024b57e3-3fe4-44e2-8ca1-d5887632c162,1545.3800048828125,2.4000000953674316,7,polypropylene line,unknown,1,N/A,N/A,N/A,N/A,N/A,134,229,62,107
+024b57e3-3fe4-44e2-8ca1-d5887632c162,1545.3800048828125,2.4000000953674316,7,equipment,unknown,1,N/A,N/A,N/A,N/A,N/A,535,0,184,144
+024b57e3-3fe4-44e2-8ca1-d5887632c162,1545.3800048828125,2.4000000953674316,7,drawer,unknown,1,N/A,N/A,N/A,N/A,N/A,328,194,391,168
+024b57e3-3fe4-44e2-8ca1-d5887632c162,1545.3800048828125,2.4000000953674316,7,Biology box,unknown,1,N/A,N/A,N/A,N/A,N/A,42,315,214,49
+024b57e3-3fe4-44e2-8ca1-d5887632c162,1545.3800048828125,2.4000000953674316,7,equipment,unknown,1,N/A,N/A,N/A,N/A,N/A,243,247,63,118
 718392e2-425d-4266-910b-1e76888e4653,1471.1400146484375,2.3399999141693115,3,Psathyrometra fragilis,species,1,Echinodermata,Crinoidea,Comatulida,Zenometridae,Psathyrometra,504,231,45,49
 718392e2-425d-4266-910b-1e76888e4653,1471.1400146484375,2.3399999141693115,3,Macrouridae,family,1,Chordata,Teleostei,Gadiformes,Macrouridae,N/A,131,93,148,64
 718392e2-425d-4266-910b-1e76888e4653,1471.1400146484375,2.3399999141693115,3,Psathyrometra fragilis,species,1,Echinodermata,Crinoidea,Comatulida,Zenometridae,Psathyrometra,544,280,28,33
 0632ef53-e09f-4b0e-96f7-2a87d0816b76,1531.449951171875,2.384999990463257,1,Bathyraja abyssicola,species,1,Chordata,Elasmobranchii,Rajiformes,Arhynchobatidae,Bathyraja,89,87,408,202
 49ab0849-5b50-416e-8352-a8974bd672f2,2402.050048828125,1.8079999685287476,1,Coryphaenoides,genus,1,Chordata,Teleostei,Gadiformes,Macrouridae,Coryphaenoides,182,0,62,133
 63b763e9-d6c2-48ba-af02-c538c5314ed7,1545.489990234375,2.4010000228881836,6,Pterasteridae,genus,1,Echinodermata,Asteroidea,Velatida,N/A,Pteraster,19,102,134,73
+63b763e9-d6c2-48ba-af02-c538c5314ed7,1545.489990234375,2.4010000228881836,6,Biology box,unknown,1,N/A,N/A,N/A,N/A,N/A,0,296,194,71
+63b763e9-d6c2-48ba-af02-c538c5314ed7,1545.489990234375,2.4010000228881836,6,equipment,unknown,1,N/A,N/A,N/A,N/A,N/A,171,192,135,175
+63b763e9-d6c2-48ba-af02-c538c5314ed7,1545.489990234375,2.4010000228881836,6,drawer,unknown,1,N/A,N/A,N/A,N/A,N/A,309,114,410,249
+63b763e9-d6c2-48ba-af02-c538c5314ed7,1545.489990234375,2.4010000228881836,6,polypropylene line,unknown,1,N/A,N/A,N/A,N/A,N/A,0,148,61,179
+63b763e9-d6c2-48ba-af02-c538c5314ed7,1545.489990234375,2.4010000228881836,6,manipulator,unknown,1,N/A,N/A,N/A,N/A,N/A,67,0,229,109
 d8c29f5b-898d-4660-90d9-b6544d5da283,1470.1800537109375,2.4059998989105225,1,Psychrolutes phrictus,species,1,Chordata,Teleostei,Perciformes,Psychrolutidae,Psychrolutes,382,248,85,72
 50b89c53-03e8-49cb-95b4-073c450a2695,2516.179931640625,1.8200000524520874,2,Coryphaenoides,genus,1,Chordata,Teleostei,Gadiformes,Macrouridae,Coryphaenoides,70,295,74,68
 50b89c53-03e8-49cb-95b4-073c450a2695,2516.179931640625,1.8200000524520874,2,Porifera,phylum,1,Porifera,N/A,N/A,N/A,N/A,58,143,164,91
@@ -252,6 +263,7 @@ edafbc40-bf9b-4913-8c0f-bd831444db54,2214.2099609375,1.871999979019165,1,Synalla
 2e21b32f-6f18-434c-9b9a-6d6a0b724d55,2349.77001953125,1.850000023841858,1,Antimora microlepis,species,1,Chordata,Teleostei,Gadiformes,Moridae,Antimora,272,272,89,98
 4a2934fb-4ae3-4c14-8eaa-7f56dbfc407d,1549.5699462890625,2.3919999599456787,1,Bathyraja spinosissima,species,1,Chordata,Elasmobranchii,Rajiformes,Arhynchobatidae,Bathyraja,0,63,513,300
 ccf44649-8091-41e8-961b-4c02d052e889,1466.47998046875,2.4619998931884766,1,Pannychia moseleyi,species,1,Echinodermata,Holothuroidea,Elasipodida,Laetmogonidae,Pannychia,280,93,204,229
+0a1a27a9-31b6-4649-b11d-142ec5490985,2462.669921875,1.784999966621399,1,Suction Sampler,unknown,1,N/A,N/A,N/A,N/A,N/A,255,31,253,159
 2e4b2d1c-6dcc-4209-8d3f-c3e8be3c7c23,2364.239990234375,1.8509999513626099,1,Crossaster borealis,species,1,Echinodermata,Asteroidea,Valvatida,Solasteridae,Crossaster,242,268,148,102
 150f24a0-aa88-468e-9415-f1e8ea6c7f8d,2059.56005859375,1.9850000143051147,1,Bathyraja spinosissima,species,1,Chordata,Elasmobranchii,Rajiformes,Arhynchobatidae,Bathyraja,201,60,470,305
 01f4b828-a8b8-413a-81fb-018fafe28074,2355.0,1.8259999752044678,1,Munnopsidae,family,1,Arthropoda,Malacostraca,Isopoda,Munnopsidae,N/A,354,303,31,31
@@ -277,6 +289,7 @@ db28e17c-4846-4f24-a764-f22e48f8d929,2448.469970703125,1.819000005722046,1,Hymen
 1c628f9e-65a7-4df2-88e8-be6ec37875ae,2338.89990234375,1.847000002861023,1,Coryphaenoides,genus,1,Chordata,Teleostei,Gadiformes,Macrouridae,Coryphaenoides,473,281,78,39
 e09975fa-2221-4bc3-8fc5-e04cbe98dca3,1515.8900146484375,2.4070000648498535,1,Ceriantharia,order,1,Cnidaria,Hexacorallia,Ceriantharia,N/A,N/A,344,155,75,65
 d202db2b-24d3-43a3-9b3c-d45fe02a0ca9,2295.719970703125,1.8799999952316284,1,Antimora microlepis,species,1,Chordata,Teleostei,Gadiformes,Moridae,Antimora,516,210,42,37
+cec69846-3cd6-4811-9b86-92f1186f5f79,2279.47998046875,1.8450000286102295,3,manipulator,unknown,1,N/A,N/A,N/A,N/A,N/A,385,4,279,167
 cec69846-3cd6-4811-9b86-92f1186f5f79,2279.47998046875,1.8450000286102295,3,Chrysogorgia pinnata,species,1,Cnidaria,Octocorallia,Scleralcyonacea,Chrysogorgiidae,Chrysogorgia,169,93,109,133
 cec69846-3cd6-4811-9b86-92f1186f5f79,2279.47998046875,1.8450000286102295,3,Porifera,phylum,1,Porifera,N/A,N/A,N/A,N/A,299,169,146,119
 7f7898b2-287d-4495-92fc-e5dc63b648ad,1473.010009765625,2.4179999828338623,1,Opisthoteuthis cf. californiana,species,0,Mollusca,Cephalopoda,Octopoda,Opisthoteuthidae,Opisthoteuthis,174,113,232,187
@@ -411,6 +424,7 @@ aa1f4685-66d1-47ab-9e86-5f8a4011dd40,2195.0400390625,1.8700000047683716,1,Coryph
 dccb7ec6-67a9-462d-84e1-637cc39c25a3,1473.010009765625,2.4170000553131104,1,Opisthoteuthis cf. californiana,species,0,Mollusca,Cephalopoda,Octopoda,Opisthoteuthidae,Opisthoteuthis,410,124,120,93
 bb9f0d74-051b-4787-a9b0-f283077d273f,1719.3199462890625,2.1649999618530273,1,Paragorgia arborea,species,1,Cnidaria,Octocorallia,Scleralcyonacea,Coralliidae,Paragorgia,84,43,393,256
 661771f2-7231-423d-b5e6-eecae59a4414,2166.739990234375,1.9229999780654907,1,Munidopsis,genus,1,Arthropoda,Malacostraca,Decapoda,Munidopsidae,Munidopsis,433,296,25,22
+0fca4ae6-3c42-40d8-9d15-b7740fbaca16,2260.110107421875,1.840999960899353,1,manipulator,unknown,1,N/A,N/A,N/A,N/A,N/A,7,1,259,294
 1ed3fe06-cfd9-4375-8021-650112160a2b,2453.449951171875,1.7979999780654907,1,Antimora microlepis,species,1,Chordata,Teleostei,Gadiformes,Moridae,Antimora,378,112,187,177
 741beb20-3022-4fe4-a9a3-741a304eca15,2230.4599609375,1.8919999599456787,1,Bathyraja spinosissima,species,1,Chordata,Elasmobranchii,Rajiformes,Arhynchobatidae,Bathyraja,199,99,466,167
 d5cea595-a653-4ebd-9d54-752ea1530b74,2361.6201171875,1.8509999513626099,3,Ophiuroidea,class,1,Echinodermata,Ophiuroidea,N/A,N/A,N/A,542,246,37,48
@@ -446,6 +460,11 @@ d0f70369-b620-4218-881f-b0774b844252,2206.68994140625,1.86899995803833,2,Synalla
 d0f70369-b620-4218-881f-b0774b844252,2206.68994140625,1.86899995803833,2,Synallactes,genus,1,Echinodermata,Holothuroidea,Synallactida,Synallactidae,Synallactes,320,425,33,45
 26393f1f-d85e-45b1-ad07-47e82d3dad23,2300.1298828125,1.8630000352859497,1,Antimora microlepis,species,1,Chordata,Teleostei,Gadiformes,Moridae,Antimora,303,56,121,61
 49f8eddb-5ee3-40ed-b536-89a52172563f,1560.0400390625,2.4200000762939453,6,Coryphaenoides,genus,1,Chordata,Teleostei,Gadiformes,Macrouridae,Coryphaenoides,345,174,145,73
+49f8eddb-5ee3-40ed-b536-89a52172563f,1560.0400390625,2.4200000762939453,6,talus,unknown,1,N/A,N/A,N/A,N/A,N/A,266,286,78,76
+49f8eddb-5ee3-40ed-b536-89a52172563f,1560.0400390625,2.4200000762939453,6,talus,unknown,1,N/A,N/A,N/A,N/A,N/A,204,29,78,76
+49f8eddb-5ee3-40ed-b536-89a52172563f,1560.0400390625,2.4200000762939453,6,talus,unknown,1,N/A,N/A,N/A,N/A,N/A,509,47,89,90
+49f8eddb-5ee3-40ed-b536-89a52172563f,1560.0400390625,2.4200000762939453,6,talus,unknown,1,N/A,N/A,N/A,N/A,N/A,271,219,124,57
+49f8eddb-5ee3-40ed-b536-89a52172563f,1560.0400390625,2.4200000762939453,6,talus,unknown,1,N/A,N/A,N/A,N/A,N/A,551,220,108,81
 d7764b50-4715-470f-b43e-8d6810a3b57f,2033.5,1.9930000305175781,1,Solasteridae,genus,1,Echinodermata,Asteroidea,Valvatida,N/A,Solaster,53,65,21,18
 520afa30-41c9-4f68-8a8b-abb61544b922,1550.280029296875,2.3919999599456787,1,Bathyraja spinosissima,species,1,Chordata,Elasmobranchii,Rajiformes,Arhynchobatidae,Bathyraja,94,136,408,110
 85f39cfe-0173-4645-8994-e1389c54c88b,1527.81005859375,2.436000108718872,1,Coryphaenoides acrolepis,species,1,Chordata,Teleostei,Gadiformes,Macrouridae,Coryphaenoides,580,250,72,41
@@ -462,6 +481,7 @@ dd3280cc-2814-473b-995f-81208b690843,2267.820068359375,1.850000023841858,1,Antim
 ef21dbef-b552-44f5-847a-e2bb36ee6b7b,1541.4599609375,2.3929998874664307,1,Opisthoteuthis cf. californiana,species,0,Mollusca,Cephalopoda,Octopoda,Opisthoteuthidae,Opisthoteuthis,925,72,315,322
 3e28ddac-13f1-4094-9aa9-126544fc68d0,1557.989990234375,2.2809998989105225,1,Psychrolutes phrictus,species,1,Chordata,Teleostei,Perciformes,Psychrolutidae,Psychrolutes,314,159,229,99
 88bbf764-5a3d-4a8c-bb18-dbf2b7716208,1540.68994140625,2.3970000743865967,2,Cystechinus giganteus,species,1,Echinodermata,Echinoidea,Holasteroida,Urechinidae,Cystechinus,353,185,81,82
+88bbf764-5a3d-4a8c-bb18-dbf2b7716208,1540.68994140625,2.3970000743865967,2,manipulator,unknown,1,N/A,N/A,N/A,N/A,N/A,87,89,264,161
 63b47a62-6573-4bfc-96b1-e74be04ec19d,2357.43994140625,1.8320000171661377,1,Ophiuroidea,class,1,Echinodermata,Ophiuroidea,N/A,N/A,N/A,268,358,35,37
 76e12e7b-d213-422c-9879-ff043843be0d,2366.14990234375,1.850000023841858,1,Pteraster,genus,1,Echinodermata,Asteroidea,Velatida,Pterasteridae,Pteraster,40,169,297,299
 953991c0-70f4-4822-a7b6-51f2a8a60db5,1669.6700439453125,2.187000036239624,2,Paragorgia arborea,species,1,Cnidaria,Octocorallia,Scleralcyonacea,Coralliidae,Paragorgia,240,49,156,252

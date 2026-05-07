@@ -40,6 +40,7 @@ httpx==0.28.1
 huggingface_hub==1.12.2
 idna==3.13
 Jinja2==3.1.6
+jiter==0.14.0
 lxml==6.1.0
 markdown-it-py==4.0.0
 MarkupSafe==3.0.3
@@ -52,6 +53,7 @@ multidict==6.7.1
 multiprocess==0.70.19
 numpy==2.0.2
 ollama==0.6.1
+openai==2.33.0
 opencv-python==4.13.0.92
 packaging==26.2
 pandas==2.3.3

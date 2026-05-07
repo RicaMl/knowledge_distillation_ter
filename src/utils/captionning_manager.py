@@ -7,6 +7,7 @@ from pathlib import Path
 import ollama
 from PIL import Image
 from io import BytesIO
+import base64
 
 load_dotenv()
 
@@ -197,3 +198,5 @@ def generate_captions_via_vlm():
     df_final = pd.DataFrame(results)
     df_final.to_csv(CSV_OUTPUT, index=False)
     print(f"\nEnd ! See {CSV_OUTPUT}")
+
+
